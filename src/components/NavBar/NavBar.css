@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'CherryBombOne';
+    src: url('../../assets/fonts/CherryBombOne-Regular.ttf') format('truetype');
+}
+
+.division_top {
+    width: 100%;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+nav {
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'CherryBombOne', 'Times New Roman', serif;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+ul li{
+    padding-left: 1rem;
+}
+
+.links{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.notification_bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    color: black;
+    position: relative;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    text-decoration: grey wavy underline;
+}

@@ -1,0 +1,11 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cards_styles{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
